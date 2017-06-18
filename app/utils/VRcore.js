@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 const OrbitControls = require('three-orbit-controls')(THREE)
-let Scene, Camera, Renderer, Controls, loopID, LoadingManager, LoaderCount = 0;
+let Scene, Camera, Renderer, Controls, loopID;
 
 function createScene({domContainer = document.body, fov = 50,far = 1000}){
   if (!(domContainer instanceof HTMLElement)) {
@@ -75,7 +75,5 @@ export {
   renderStart,
   renderStop,
   clearScene,
-  cleanPage,
-  LoadingManager,
-  LoaderCount
+  cleanPage
 }

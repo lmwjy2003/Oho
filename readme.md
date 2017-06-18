@@ -10,4 +10,5 @@ npm start
 
 # 说明
 
-+ 加入了three.js的练习
++ [react+redux+electron技术](https://segmentfault.com/a/1190000009043982)&[项目地址](https://github.com/zhangzewei/electron-react-redux-demo)
++ [WebVR基类编写](./docs/WebVR.md)
